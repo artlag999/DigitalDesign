@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Digital Disign - Задание</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <button class="btn btn-up">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	        width="284.929px" height="284.929px" viewbox="0 0 284.929 284.929" style="enable-background:new 0 0 284.929 284.929;"
+	        xml:space="preserve">
+            <g>
+	            <path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285
+                    C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854
+                    c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848
+                    c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566
+                    C284.929,199.378,283.984,197.188,282.082,195.285z"/>
+            </g>
+        </svg>
+    </button>
+
+    <header class="header">
+        <div class="container header__container">
+            <button class="btn header__btn--menu">Меню</button>
+            <nav class="nav header__nav">
+                <ul class="nav__list header__list">
+                    <li class="nav__item header__item">
+                        <a href="#tv" class="nav__link header__link">Телевизоры</a>
+                    </li>
+                    <li class="nav__item header__item">
+                        <a href="#pc" class="nav__link header__link">Комплектующие для ПК</a>
+                    </li>
+                    <li class="nav__item header__item">
+                        <a href="#phone" class="nav__link header__link">Телефоны</a>
+                    </li>
+                    <li class="nav__item header__item">
+                        <a href="#tech" class="nav__link header__link">Бытовая техника</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn btn-theme header__btn">Темная тема: <span class="span-on">ВКЛ</span><span class="span-off dark">ВЫКЛ</span></button>
+        </div>
+    </header>
+
+    <div class="menu">
+        <ul class="nav__list menu__list">
+            <li class="nav__item menu__item">
+                <a href="#tv" class="nav__link menu__link">Телевизоры</a>
+            </li>
+            <li class="nav__item menu__item">
+                <a href="#pc" class="nav__link menu__link">Комплектующие для ПК</a>
+            </li>
+            <li class="nav__item menu__item">
+                <a href="#phone" class="nav__link menu__link">Телефоны</a>
+            </li>
+            <li class="nav__item menu__item">
+                <a href="#tech" class="nav__link menu__link">Бытовая техника</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="section tv" id="tv">
+        <div class="container tv__container">
+            <h2 class="head tv__head">Телевизоры</h2>
+            <ul class="list tv__list" id="tv__list"></ul>
+            <button class="btn btn-more tv__btn" data-target="tv__list">Показать больше</button>
+        </div>
+    </section>
+
+
+    <section class="section pc" id="pc">
+        <div class="container pc__container">
+            <h2 class="head pc__head">Комплектующие для ПК</h2>
+            <ul class="list pc__list" id="pc__list"></ul>
+            <button class="btn btn-more pc__btn" data-target="pc__list">Показать больше</button>
+        </div>
+    </section>
+
+
+    <section class="section phone" id="phone">
+        <div class="container phone__container">
+            <h2 class="head phone__head">Телефоны</h2>
+            <ul class="list phone__list" id="phone__list"></ul>
+            <button class="btn btn-more phone__btn" data-target="phone__list">Показать больше</button>
+        </div>
+    </section>
+
+
+    <section class="section tech" id="tech">
+        <div class="container tech__container">
+            <h2 class="head tech__head">Бытовая техника</h2>
+            <ul class="list tech__list" id="tech__list"></ul>
+            <button class="btn btn-more tech__btn" data-target="tech__list">Показать больше</button>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <nav class="nav footer__nav">
+                <ul class="nav__list footer__list">
+                    <li class="nav__item footer__item">
+                        <a href="#tv" class="nav__link footer__link">Телевизоры</a>
+                    </li>
+                    <li class="nav__item footer__item">
+                        <a href="#pc" class="nav__link footer__link">Комплектующие для ПК</a>
+                    </li>
+                    <li class="nav__item footer__item">
+                        <a href="#phone" class="nav__link footer__link">Телефоны</a>
+                    </li>
+                    <li class="nav__item footer__item">
+                        <a href="#tech" class="nav__link footer__link">Бытовая техника</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal__window">
+            <form action="" class="modal__form form">
+                <h2 class="form__head">Оформление покупки</h2>
+                <label for="item-count" class="form__label form__label-count">Введите количество товара:</label>
+                <input type="number" min="0" class="form__input form__input-count" id="item-count">
+                <div class="form__block-color">
+                    <label for="item-color" class="form__label form__label-color">
+                        <input type="radio" name="item-color" class="form__input form__input-color" checked>
+                        <span class="form__input-checkmark form__input-checkmark--1"></span>
+                    </label>
+                    <label for="item-color" class="form__label form__label-color">
+                        <input type="radio" name="item-color" class="form__input form__input-color" checked>
+                        <span class="form__input-checkmark form__input-checkmark--2"></span>
+                    </label>
+                    <label for="item-color" class="form__label form__label-color">
+                        <input type="radio" name="item-color" class="form__input form__input-color" checked>
+                        <span class="form__input-checkmark form__input-checkmark--3"></span>
+                    </label>
+                    <label for="item-color" class="form__label form__label-color">
+                        <input type="radio" name="item-color" class="form__input form__input-color" checked>
+                        <span class="form__input-checkmark form__input-checkmark--4"></span>
+                    </label>
+                </div>
+                <textarea class="form__textarea" name="text" id="" cols="30" rows="10" maxlength="2000" placeholder="Комментарий"></textarea>
+                <input  class="form__input form__input-buy" type="submit" value="Купить">
+                <button class="btn form__btn">Закрыть</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
