@@ -484,6 +484,19 @@ body {
         box-sizing: border-box;
         border-radius: 50px;
     }
+    .header__btn--menu:hover {
+        border-color: var(--color__green-main);
+        background: var(--color__green-main);
+        color: white;
+    }
+    .header__btn--menu:focus {
+        border-color: var(--color__green-dark);
+    }
+    .header__btn--menu:active {
+        border-color: var(--color__green-dark);
+        background: var(--color__green-main);
+        color: white;
+    }
     .header__nav {
         display: none;
     }
