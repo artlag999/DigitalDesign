@@ -7,55 +7,55 @@ window.addEventListener('DOMContentLoaded', function () {
         { type: "tv", picture: "img/tv-3.png", name: "Sony XG-550 Ultra", addDate: new Date(2020, 5, 12) },
         { type: "tv", picture: "img/tv-4.png", name: "Samsung S-40", addDate: new Date(2023, 3, 22) },
         { type: "tv", picture: "img/tv-5.png", name: "Samsung E-5000 UHD", addDate: new Date(2022, 4, 21) },
-        { type: "tv", picture: "img/tv-1.png", name: "LG 28TQ515S-WZ", addDate: new Date(2022, 0, 2) },
-        { type: "tv", picture: "img/tv-2.png", name: "Samsung UE8000", addDate: new Date(2022, 0, 2) },
-        { type: "tv", picture: "img/tv-3.png", name: "Sony ZX-7000", addDate: new Date(2022, 0, 2) },
-        { type: "tv", picture: "img/tv-4.png", name: "LG UHD-S-400", addDate: new Date(2022, 0, 2) },
-        { type: "tv", picture: "img/tv-5.png", name: "Samsung UE-8500", addDate: new Date(2022, 0, 2) },
-        { type: "tv", picture: "img/tv-1.png", name: "Xiaomi Mi TV Q1E 55", addDate: new Date(2022, 0, 2) },
-        { type: "tv", picture: "img/tv-2.png", name: "Xiaomi Mi TV 4S ", addDate: new Date(2022, 0, 2) },
+        { type: "tv", picture: "img/tv-1.png", name: "LG 28TQ515S-WZ", addDate: new Date(2017, 11, 22) },
+        { type: "tv", picture: "img/tv-2.png", name: "Samsung UE8000", addDate: new Date(2020,10, 25) },
+        { type: "tv", picture: "img/tv-3.png", name: "Sony ZX-7000", addDate: new Date(2014, 2, 9) },
+        { type: "tv", picture: "img/tv-4.png", name: "LG UHD-S-400", addDate: new Date(2017, 8, 22) },
+        { type: "tv", picture: "img/tv-5.png", name: "Samsung UE-8500", addDate: new Date(2018, 5, 10) },
+        { type: "tv", picture: "img/tv-1.png", name: "Xiaomi Mi TV Q1E 55", addDate: new Date(2016, 8, 14) },
+        { type: "tv", picture: "img/tv-2.png", name: "Xiaomi Mi TV 4S ", addDate: new Date(2017, 7, 13) },
 
-        { type: "pc", picture: "img/pc-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-4.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-5.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-4.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-5.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-4.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "pc", picture: "img/pc-5.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-1.png", name: "Пользовательская сборка №1", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-2.png", name: "Пользовательская сборка №2", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-3.png", name: "Пользовательская сборка №3", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-4.png", name: "Пользовательская сборка №4", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-5.png", name: "Пользовательская сборка №5", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-1.png", name: "Пользовательская сборка №1", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-2.png", name: "Пользовательская сборка №2", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-3.png", name: "Пользовательская сборка №3", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-4.png", name: "Пользовательская сборка №4", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-5.png", name: "Пользовательская сборка №5", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-1.png", name: "Пользовательская сборка №1", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-2.png", name: "Пользовательская сборка №2", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-3.png", name: "Пользовательская сборка №3", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-4.png", name: "Пользовательская сборка №4", addDate: new Date(2022, 0, 2) },
+        { type: "pc", picture: "img/pc-5.png", name: "Пользовательская сборка №5", addDate: new Date(2022, 0, 2) },
 
-        { type: "phone", picture: "img/phone-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-4.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-5.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-4.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-5.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "phone", picture: "img/phone-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
+        { type: "phone", picture: "img/phone-1.png", name: "Samsung Galaxy M32", addDate: new Date(2011, 10, 22) },
+        { type: "phone", picture: "img/phone-2.png", name: "Xiaomi Redmi 9C NFC", addDate: new Date(2022, 0, 31) },
+        { type: "phone", picture: "img/phone-3.png", name: "HTC Wildfire E3", addDate: new Date(2023, 3, 5) },
+        { type: "phone", picture: "img/phone-4.png", name: "realme C25S", addDate: new Date(2022, 4, 5) },
+        { type: "phone", picture: "img/phone-5.png", name: "itel A25 16GB", addDate: new Date(2022, 0, 2) },
+        { type: "phone", picture: "img/phone-1.png", name: "F+ B170", addDate: new Date(2023, 0, 2) },
+        { type: "phone", picture: "img/phone-2.png", name: "Samsung Galaxy A02", addDate: new Date(2021, 2, 1) },
+        { type: "phone", picture: "img/phone-3.png", name: "Apple iPhone XR", addDate: new Date(2020, 0, 1) },
+        { type: "phone", picture: "img/phone-4.png", name: "Panasonic TU150", addDate: new Date(2015, 10, 23) },
+        { type: "phone", picture: "img/phone-5.png", name: "HUAWEI P50 Pocket", addDate: new Date(2021, 11, 21) },
+        { type: "phone", picture: "img/phone-1.png", name: "Nokia 210 Dual SIM", addDate: new Date(2019, 0, 13) },
 
-        { type: "tech", picture: "img/tech-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-4.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-5.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-4.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-5.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-1.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-2.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
-        { type: "tech", picture: "img/tech-3.png", name: "Sony X-700", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-1.png", name: "Холодильник", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-2.png", name: "Стиральная машина", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-3.png", name: "Плита", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-4.png", name: "Робот-пылесос", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-5.png", name: "Утюг", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-1.png", name: "Холодильник", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-2.png", name: "Стиральная машина", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-3.png", name: "Плита", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-4.png", name: "Робот-пылесос", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-5.png", name: "Утюг", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-1.png", name: "Холодильник", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-2.png", name: "Стиральная машина", addDate: new Date(2022, 0, 2) },
+        { type: "tech", picture: "img/tech-3.png", name: "Плита", addDate: new Date(2022, 0, 2) },
     ]
 
     // создаем цикл добавления элементов
@@ -98,7 +98,7 @@ window.addEventListener('DOMContentLoaded', function () {
         let month = monthName[addDate.getMonth()]
         let year = addDate.getFullYear()
 
-        let dateText = `${day}, ${week} неделя ${month} ${year} года`
+        let dateText = `Дата добавления: ${day}, ${week} неделя ${month} ${year} года`
         let newDate = document.createElement("p")
         newDate.classList.add("item__date", `${type}__date`)
         newDate.textContent = dateText
@@ -123,7 +123,7 @@ window.addEventListener('DOMContentLoaded', function () {
         if (checkY < 100) {
             btnUp.style.display = 'none'
         }
-    }, { passive: true })
+    })
     btnUp.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     })
