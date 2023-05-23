@@ -123,7 +123,7 @@ window.addEventListener('DOMContentLoaded', function () {
         if (checkY < 100) {
             btnUp.style.display = 'none'
         }
-    })
+    }, { passive: true })
     btnUp.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     })
